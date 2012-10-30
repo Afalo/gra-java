@@ -1,0 +1,194 @@
+ITERACJA 1 (15)
+
+1. As a/an uzytkownik I would like to miec mozliwosc prostej instalacji aplikacji na telefonie. 
+
+Aplikacja bedzie wymagala standardowej, jednorazowej instalacji.
+Estimate: 2 
+
+
+2. As a/an uzytkownik I would like to miec mozliwosc uruchomienia aplikacji poprzez ikonê na pulpicie. 
+
+Aplikacja przy instalacji bedzie tworzyc skrot na pulpicie, poprzez ktory z latwoscia bedzie mozna ja uruchomic. 
+Estimate: ? 
+
+
+3. As a/an uzytkownik I would like to aby grafika gry byla dostosowana do wiekszosci urzadzen mobilnych. 
+
+Zastosowanie funkcji umozliwiajacej dostosowanie rozdzielczosci do ekranu telefonu.
+Estimate: 1 
+
+
+4. As a/an uzytkownik I would like to miec mozliwosc wl¹czenia nowej gry poleceniem start. 
+
+Stworzenie przycisku "start" uruchamiajacego nowa gre. 
+Estimate: 1 
+
+
+5. As a/an uzytkownik I would like to aby program uczyl poprzez zabawê, by przynosil efekty. 
+
+Metoda nauczania zastosowana w programie bedzie opierac sie na kojarzeniu slow z obrazkami. Stworzenie bazy slow i obrazow.
+Estimate: 8 
+
+
+6. As a/an uzytkownik I would like to aby za dobra odpowiedz przyznawane byly punkty. 
+
+Podczas trwania gry za poprawne odpowiedzi beda przyznawane punkty, przy zlej odpowiedzi ilosc uzyskanych punktow nie ulega zmianie.
+Estimate: 1 
+
+
+7. As a/an uzytkownik I would like to aby na koniec gry byly wypisywane punkty zdobyte podczas danej gry. 
+
+Po skonczonej grze nastapi wyswietlenie sumy punktow uzyskanych podczas calej gry.
+Estimate: ? 
+
+
+8. As a/an uzytkownik I would like to miec mozliwosc wyjscia z aplikacji po uruchomieniu jej. 
+
+Stworzenie opcji w menu umozliwiajacej zakonczenie aplikacji.
+Estimate: 1 
+
+
+
+ITERACJA 2 (13,5)
+
+9. As a/an uzytkownik I would like to miec czytelne i proste menu gry. 
+
+Menu programu bedzie ograniczac sie do najistotniejszych opcji.
+Estimate: 5 
+
+
+10. As a/an uzytkownik I would like to aby program byl prosty w obsludze, aby byl zrozumialy dla dziecka. 
+
+Jasne i zrozumiale komunikaty programu.
+Estimate: ? 
+
+
+11. As a/an uzytkownik I would like to moc korzystac z wiecej niz jednego jezyka. 
+
+Stworzenie baz dla 3 jezykow: polskiego, angielskiego i francuskiego.
+Estimate: 5 
+
+
+12. As a/an uzytkownik I would like to miec mozliwosc wyboru jezyka przed rozpoczeciem gry. 
+
+Stworzenie menu wyboru jezyka.
+Estimate: 3 
+
+
+
+ITERACJA 3 (14)
+
+13. As a/an uzytkownik I would like to aby slow nie trzeba by³o wpisywac zeby bylo wygodniej. 
+
+Wybor odpowiedzi polegajacy na kliknieciu odpowiedniego przycisku z mozliwych opcji a,b,c,d.
+Estimate: 5 
+
+
+14. As a/an uzytkownik I would like to zeby byla duza roznorodnosc slow, zeby poznac slowa z roznych dziedzin. 
+
+Stworzenie rozleglej bazy slow w kazdym z 3 jezykow.
+Estimate: 5 
+
+15. As a/an uzytkownik I would like to aby slowa siê powtarzaly w celu ich zapamietania. 
+
+Slowa beda kazdorazowo losowane z bazy danych. Dopasowanie ilosci slow w pojedynczej grze do ilosci slow znajdujacych sie w bazie, tak by zdarzaly sie te same slowa w 2 kolejnych grach.
+Estimate: 2 
+
+16. As a/an uzytkownik I would like to aby kazda pojedyncza gra posiadala limit wyswietlanych obrazkow, aby nie trwala w nieskonczonosc. 
+
+Kazda gra bedzie skladala sie z okreslonej liczby elementow - zagadek.
+Estimate: ? 
+
+17. As a/an uzytkownik I would like to aby slowa nie pokazywaly sie zawsze te same, aby gra nie byla monotonna. 
+
+Slowa beda kazdorazowo losowane z bazy danych. Dopasowanie ilosci slow w pojedynczej grze do ilosci slow znajdujacych sie w bazie, tak by caly czas pojawialy sie nowe elementy.
+Estimate: 1 
+
+18. As a/an uzytkownik I would like to aby slowa nie pokazywaly siê zawsze w tej samej kolejnosci, aby gra nie byla monotonna. 
+
+Dobor slow w kazdej grze, jak i ich kolejnosc bedzie przypadkowy.
+Estimate: ? 
+
+
+ITERACJA 4 (15)
+
+
+19. As a/an uzytkownik I would like to miec kolorow¹ i zachêcaj¹ca oprawê gry. 
+
+Program bedzie stworzony pod preferencje mlodego uzytkownika.
+Estimate: 13 
+
+
+20. As a/an uzytkownik I would like to aby aplikacja mia³a dzwiek. 
+
+Dodanie sciezki dzwiekowej do aplikacji.
+Estimate: 2 
+
+
+
+ITERACJA 5(17)
+
+21. As a/an uzytkownik I would like to miec mozliwosc wylaczenia dzwieku w aplikacji. 
+
+Stworzenie przycisku wlaczajacego i wylaczajacego dzwiek.
+Estimate: 1 
+
+
+22. As a/an uzytkownik I would like to miec mozliwosc samodzielnego dodawania elementow do gry, aby moc dodac slowa ktore mnie interesuja. 
+
+Program bedzie posiadal mozliwosc dodawania wlasnych elementow zagadek do gry. Stworzenie mozliwosci dodawania wlasnych elementow do bazy zagadek juz istniejacych.
+Estimate: 8 
+
+
+23. As a/an uzytkownik I would like to miec mozliwosc wyboru jezyka przy dodawaniu wlasnych obrazkow. 
+
+Do opcji dodawania wlasnych elementow- zagadek dolaczone bedzie menu z opcja wyboru jezyka.
+Estimate: 5 
+
+
+24. As a/an uzytkownik I would like to aby wpisane przeze mnie elementy byly w grze tak samo istotne jak pozostale. 
+
+Elementy do kazdej gry beda wybierane losowo, prawdopodobienstwo wylosowania elementu istniejacego od poczatku i dodanego przez uzytkownika jest takie samo.
+Estimate: 2 
+
+
+ITERACJA 6(15,5)
+
+
+
+25. As a/an uzytkownik I would like to aby bylo mozliwe sterowanie klawiatura lub dotykiem w zaleznosci od modelu telefonu. 
+
+Aplikacja automatyczne wybiera sposob sterowania telefonem.
+Estimate: 1 
+
+
+26. As a/an uzytkownik I would like to aby dodane przeze mnie obrazki mogly byc edytowane wedle moich upodoban, dodawane/ usuwane. 
+
+Do opcji dodawania wlasnych elementow dolaczone bedzie menu z opcja zarzadzania elementami.
+Estimate: 8 
+
+27. As a/an uzytkownik I would like to moc uzywac zdjec znajdujacych siê w pamieci mojego telefonu do tworzenia nowych elementow. 
+
+Tworzenie nowych elementow ze zdjec/ obrazow znajdujacych sie w telefonie.
+Estimate: 3 
+
+
+28. As a/an uzytkownik I would like to aby menu dodawania elementow i edytowania bylo intuicyjne. 
+
+Stworzenie prostego, przejrzystego menu, skladajacego sie z zaledwie kilku opcji mieszczacych sie na 1 ekranie.
+Estimate: 3 
+
+
+29. As a/an uzytkownik I would like to aby pozytywny lub negatywny wynik zosta³ przedstawiony w ciekawy sposób. 
+
+Wyswietlanie obrazka, lub dzwieku adekwatnego do wyniku po kazdym pytaniu.
+Estimate: 1 
+
+
+30. As a/an uzytkownik I would like to aby przy wylaczaniu program upewnial siê czy na pewno chce wyjsc z gry. 
+
+Po wcisnieciu przez uzytkownika przycisku "wyjdz" pojawi sie komunikat z pytaniem upewniajacym sie czy uzytkownik napewno chce opuscic gre.
+Estimate: ? 
+
+
+
