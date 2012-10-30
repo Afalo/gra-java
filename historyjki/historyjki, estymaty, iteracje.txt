@@ -9,7 +9,7 @@ Estimate: 2
 2. As a/an uzytkownik I would like to miec mozliwosc uruchomienia aplikacji poprzez ikonê na pulpicie. 
 
 Aplikacja przy instalacji bedzie tworzyc skrot na pulpicie, poprzez ktory z latwoscia bedzie mozna ja uruchomic. 
-Estimate: 1 
+Estimate: ? 
 
 
 3. As a/an uzytkownik I would like to aby grafika gry byla dostosowana do wiekszosci urzadzen mobilnych. 
@@ -39,7 +39,7 @@ Estimate: 1
 7. As a/an uzytkownik I would like to aby na koniec gry byly wypisywane punkty zdobyte podczas danej gry. 
 
 Po skonczonej grze nastapi wyswietlenie sumy punktow uzyskanych podczas calej gry.
-Estimate: 1 
+Estimate: ? 
 
 
 8. As a/an uzytkownik I would like to miec mozliwosc wyjscia z aplikacji po uruchomieniu jej. 
@@ -60,7 +60,7 @@ Estimate: 5
 10. As a/an uzytkownik I would like to aby program byl prosty w obsludze, aby byl zrozumialy dla dziecka. 
 
 Jasne i zrozumiale komunikaty programu.
-Estimate: 1 
+Estimate: ? 
 
 
 11. As a/an uzytkownik I would like to moc korzystac z wiecej niz jednego jezyka. 
@@ -97,7 +97,7 @@ Estimate: 2
 16. As a/an uzytkownik I would like to aby kazda pojedyncza gra posiadala limit wyswietlanych obrazkow, aby nie trwala w nieskonczonosc. 
 
 Kazda gra bedzie skladala sie z okreslonej liczby elementow - zagadek.
-Estimate: 1 
+Estimate: ? 
 
 17. As a/an uzytkownik I would like to aby slowa nie pokazywaly sie zawsze te same, aby gra nie byla monotonna. 
 
@@ -107,7 +107,7 @@ Estimate: 1
 18. As a/an uzytkownik I would like to aby slowa nie pokazywaly siê zawsze w tej samej kolejnosci, aby gra nie byla monotonna. 
 
 Dobor slow w kazdej grze, jak i ich kolejnosc bedzie przypadkowy.
-Estimate: 1 
+Estimate: ? 
 
 
 ITERACJA 4 (15)
@@ -188,7 +188,7 @@ Estimate: 1
 30. As a/an uzytkownik I would like to aby przy wylaczaniu program upewnial siê czy na pewno chce wyjsc z gry. 
 
 Po wcisnieciu przez uzytkownika przycisku "wyjdz" pojawi sie komunikat z pytaniem upewniajacym sie czy uzytkownik napewno chce opuscic gre.
-Estimate: 1 
+Estimate: ? 
 
 
 
