@@ -6,10 +6,10 @@ Aplikacja bedzie wymagala standardowej, jednorazowej instalacji.
 Estimate: 2 
 
 
-2. As a/an uzytkownik I would like to miec mozliwosc uruchomienia aplikacji poprzez ikonê na pulpicie. 
+2. As a/an uzytkownik I would like to miec mozliwosc uruchomienia aplikacji poprzez ikonï¿½ na pulpicie. 
 
 Aplikacja przy instalacji bedzie tworzyc skrot na pulpicie, poprzez ktory z latwoscia bedzie mozna ja uruchomic. 
-Estimate: ? 
+Estimate: 1/2 
 
 
 3. As a/an uzytkownik I would like to aby grafika gry byla dostosowana do wiekszosci urzadzen mobilnych. 
@@ -18,13 +18,13 @@ Zastosowanie funkcji umozliwiajacej dostosowanie rozdzielczosci do ekranu telefo
 Estimate: 1 
 
 
-4. As a/an uzytkownik I would like to miec mozliwosc wl¹czenia nowej gry poleceniem start. 
+4. As a/an uzytkownik I would like to miec mozliwosc wlï¿½czenia nowej gry poleceniem start. 
 
 Stworzenie przycisku "start" uruchamiajacego nowa gre. 
 Estimate: 1 
 
 
-5. As a/an uzytkownik I would like to aby program uczyl poprzez zabawê, by przynosil efekty. 
+5. As a/an uzytkownik I would like to aby program uczyl poprzez zabawï¿½, by przynosil efekty. 
 
 Metoda nauczania zastosowana w programie bedzie opierac sie na kojarzeniu slow z obrazkami. Stworzenie bazy slow i obrazow.
 Estimate: 8 
@@ -39,7 +39,7 @@ Estimate: 1
 7. As a/an uzytkownik I would like to aby na koniec gry byly wypisywane punkty zdobyte podczas danej gry. 
 
 Po skonczonej grze nastapi wyswietlenie sumy punktow uzyskanych podczas calej gry.
-Estimate: ? 
+Estimate: 1/2
 
 
 8. As a/an uzytkownik I would like to miec mozliwosc wyjscia z aplikacji po uruchomieniu jej. 
@@ -60,7 +60,7 @@ Estimate: 5
 10. As a/an uzytkownik I would like to aby program byl prosty w obsludze, aby byl zrozumialy dla dziecka. 
 
 Jasne i zrozumiale komunikaty programu.
-Estimate: ? 
+Estimate: 1/2 
 
 
 11. As a/an uzytkownik I would like to moc korzystac z wiecej niz jednego jezyka. 
@@ -78,7 +78,7 @@ Estimate: 3
 
 ITERACJA 3 (14)
 
-13. As a/an uzytkownik I would like to aby slow nie trzeba by³o wpisywac zeby bylo wygodniej. 
+13. As a/an uzytkownik I would like to aby slow nie trzeba byï¿½o wpisywac zeby bylo wygodniej. 
 
 Wybor odpowiedzi polegajacy na kliknieciu odpowiedniego przycisku z mozliwych opcji a,b,c,d.
 Estimate: 5 
@@ -89,7 +89,7 @@ Estimate: 5
 Stworzenie rozleglej bazy slow w kazdym z 3 jezykow.
 Estimate: 5 
 
-15. As a/an uzytkownik I would like to aby slowa siê powtarzaly w celu ich zapamietania. 
+15. As a/an uzytkownik I would like to aby slowa siï¿½ powtarzaly w celu ich zapamietania. 
 
 Slowa beda kazdorazowo losowane z bazy danych. Dopasowanie ilosci slow w pojedynczej grze do ilosci slow znajdujacych sie w bazie, tak by zdarzaly sie te same slowa w 2 kolejnych grach.
 Estimate: 2 
@@ -97,29 +97,29 @@ Estimate: 2
 16. As a/an uzytkownik I would like to aby kazda pojedyncza gra posiadala limit wyswietlanych obrazkow, aby nie trwala w nieskonczonosc. 
 
 Kazda gra bedzie skladala sie z okreslonej liczby elementow - zagadek.
-Estimate: ? 
+Estimate: 1/2 
 
 17. As a/an uzytkownik I would like to aby slowa nie pokazywaly sie zawsze te same, aby gra nie byla monotonna. 
 
 Slowa beda kazdorazowo losowane z bazy danych. Dopasowanie ilosci slow w pojedynczej grze do ilosci slow znajdujacych sie w bazie, tak by caly czas pojawialy sie nowe elementy.
 Estimate: 1 
 
-18. As a/an uzytkownik I would like to aby slowa nie pokazywaly siê zawsze w tej samej kolejnosci, aby gra nie byla monotonna. 
+18. As a/an uzytkownik I would like to aby slowa nie pokazywaly siï¿½ zawsze w tej samej kolejnosci, aby gra nie byla monotonna. 
 
 Dobor slow w kazdej grze, jak i ich kolejnosc bedzie przypadkowy.
-Estimate: ? 
+Estimate: 1/2 
 
 
 ITERACJA 4 (15)
 
 
-19. As a/an uzytkownik I would like to miec kolorow¹ i zachêcaj¹ca oprawê gry. 
+19. As a/an uzytkownik I would like to miec kolorowï¿½ i zachï¿½cajï¿½ca oprawï¿½ gry. 
 
 Program bedzie stworzony pod preferencje mlodego uzytkownika.
 Estimate: 13 
 
 
-20. As a/an uzytkownik I would like to aby aplikacja mia³a dzwiek. 
+20. As a/an uzytkownik I would like to aby aplikacja miaï¿½a dzwiek. 
 
 Dodanie sciezki dzwiekowej do aplikacji.
 Estimate: 2 
@@ -167,7 +167,7 @@ Estimate: 1
 Do opcji dodawania wlasnych elementow dolaczone bedzie menu z opcja zarzadzania elementami.
 Estimate: 8 
 
-27. As a/an uzytkownik I would like to moc uzywac zdjec znajdujacych siê w pamieci mojego telefonu do tworzenia nowych elementow. 
+27. As a/an uzytkownik I would like to moc uzywac zdjec znajdujacych siï¿½ w pamieci mojego telefonu do tworzenia nowych elementow. 
 
 Tworzenie nowych elementow ze zdjec/ obrazow znajdujacych sie w telefonie.
 Estimate: 3 
@@ -179,16 +179,16 @@ Stworzenie prostego, przejrzystego menu, skladajacego sie z zaledwie kilku opcji
 Estimate: 3 
 
 
-29. As a/an uzytkownik I would like to aby pozytywny lub negatywny wynik zosta³ przedstawiony w ciekawy sposób. 
+29. As a/an uzytkownik I would like to aby pozytywny lub negatywny wynik zostaï¿½ przedstawiony w ciekawy sposï¿½b. 
 
 Wyswietlanie obrazka, lub dzwieku adekwatnego do wyniku po kazdym pytaniu.
 Estimate: 1 
 
 
-30. As a/an uzytkownik I would like to aby przy wylaczaniu program upewnial siê czy na pewno chce wyjsc z gry. 
+30. As a/an uzytkownik I would like to aby przy wylaczaniu program upewnial siï¿½ czy na pewno chce wyjsc z gry. 
 
 Po wcisnieciu przez uzytkownika przycisku "wyjdz" pojawi sie komunikat z pytaniem upewniajacym sie czy uzytkownik napewno chce opuscic gre.
-Estimate: ? 
+Estimate: 1/2 
 
 
 
