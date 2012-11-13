@@ -1,46 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-
-    <Gallery
-        android:id="@+id/autko"
-        android:layout_width="match_parent"
-        android:layout_height="202dp"
-        android:background="@drawable/auto"/>
-
-    <Button
-        android:id="@+id/car"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="42dp"
-        android:layout_weight="0.10"
-        android:text="@string/car" 
-        android:background="#CCFF99" />
-
-    <Button
-        android:id="@+id/carr"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:text="@string/carr" 
-        android:background="#99CCCC"/>
-
-    <Button
-        android:id="@+id/ccar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:text="@string/ccar"
-        android:background="#99CCCC" />
-
-    <Button
-        android:id="@+id/caar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.10"
-        android:text="@string/caar" 
-        android:background="#99CCCC"/>
-
-</LinearLayout>
