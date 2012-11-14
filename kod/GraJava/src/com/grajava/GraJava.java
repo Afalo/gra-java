@@ -123,7 +123,7 @@ public class GraJava extends Activity {
         	        	public void onClick(View v) {
         	               
         	        			
-        	        		Intent intent = new Intent(context, GraJava2.class);
+        	        		Intent intent = new Intent(context, GraJava2a.class);
 							startActivity(intent);
 							setContentView(R.layout.ekran3);
 							suma = (TextView) findViewById(R.id.suma);
