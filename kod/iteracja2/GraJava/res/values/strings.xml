@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">GraJava</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_gra_java">GraJava</string>
+    <string name="start">START</string>
+    <string name="car">car</string>
+    <string name="doll">doll</string>
+    <string name="dog">dog</string>
+    <string name="sister">sister</string>
+    <string name="wyjscie">WYJŚCIE</string>
+	<string name="P"></string> 
+	<string name="opcje">OPCJE</string> 
+	<string name="polski">POLSKI</string> 
+	<string name="francuski">FRANCE</string> 
+	<string name="angielski">ENGLISH</string> 
+	<string name="cofnij">COFNIJ</string> 
+	<string name="point">One point more!! :)</string> 
+	<string name="wrong">Wrong!! ;(</string> 
+	<string name="sumang">Your score =  :)</string> 
+	<string name="coeur">coeur</string> 
+	<string name="banane">banane</string> 
+	<string name="chat">chat</string> 
+	<string name="ballon">ballon</string> 
+	<string name="kwiatek">kwiatek</string> 
+	<string name="samochod">samochód</string> 
+	<string name="pies">pies</string> 
+	<string name="siostra">siostra</string> 
+	<string name="pointf">pkt - fr</string> 
+	<string name="punkt">Zdobyles punkt!! :)</string> 
+	<string name="zle">zle! :(</string> 
+	<string name="mal">zle -fr</string> 
+	<string name="sumpol">Suma punktow = .. !!</string> 
+	<string name="sumfr">sum pkt - fr</string>
+
+</resources>

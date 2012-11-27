@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:orientation="vertical" >
+
+
+
+
+    <Button
+        android:id="@+id/polski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/polski" />
+
+
+
+
+    <Button
+        android:id="@+id/francuski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/francuski" />
+
+
+
+
+    <Button
+        android:id="@+id/angielski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/angielski" />
+
+
+
+
+    <Button
+        android:id="@+id/cofnij"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/cofnij" />
+
+</LinearLayout>
