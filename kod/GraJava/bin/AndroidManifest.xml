@@ -8,11 +8,11 @@
         android:targetSdkVersion="15" />
 
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/tlo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".GraJava"
+            android:name=".Start"
             android:label="@string/title_activity_gra_java" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,11 +20,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GraJava2"></activity>
-        <activity android:name=".GraJava2a"></activity>
-        <activity android:name="GraJava1"></activity>
-        <activity android:name="GraJava3"></activity>
-        <activity android:name="Start"></activity>
+		<activity android:name="com.grajava.GraJava"></activity>
+        <activity android:name="com.grajava.angielski1"></activity>
+        <activity android:name="com.grajava.angielski2"></activity>
+        <activity android:name="com.grajava.angielski3"></activity>
+        <activity android:name="com.grajava.angielski3a"></activity>
+        <activity android:name="com.grajava.francuski1"></activity>
+        <activity android:name="com.grajava.francuski2"></activity>
+        <activity android:name="com.grajava.francuski3"></activity>
+        <activity android:name="com.grajava.francuski3a"></activity>
+        <activity android:name="com.grajava.polski1"></activity>
+        <activity android:name="com.grajava.polski2"></activity>
+        <activity android:name="com.grajava.polski3"></activity>
+        <activity android:name="com.grajava.polski3a"></activity>
+        <activity android:name="com.grajava.wybor"></activity>
     </application>
 
 </manifest>

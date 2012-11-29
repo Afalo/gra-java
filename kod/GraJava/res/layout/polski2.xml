@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ivp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.10"
+        android:src="@drawable/kwiatek" android:contentDescription="@string/P"/>
+
+    <Button
+        android:id="@+id/kwiatek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCCC"
+        android:layout_weight="0.10"
+        android:text="@string/kwiatek" />
+
+    <Button
+        android:id="@+id/samochod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCCC"
+        android:layout_weight="0.10"
+        android:text="@string/samochod" />
+
+    <Button
+        android:id="@+id/pies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCCC"
+        android:layout_weight="0.10"
+        android:text="@string/pies" />
+
+    <Button
+        android:id="@+id/siostra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCCC"
+        android:layout_weight="0.10"
+        android:text="@string/siostra" />
+
+</LinearLayout>

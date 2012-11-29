@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iva"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:src="@drawable/car" android:contentDescription="@string/P"/>
+
+    <Button
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="@string/car" 
+        android:background="#99CCCC" />
+
+
+
+
+    <Button
+        android:id="@+id/doll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="@string/doll" 
+        android:background="#99CCCC"/>
+
+
+
+
+    <Button
+        android:id="@+id/dog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="@string/dog"
+        android:background="#99CCCC" />
+
+
+
+
+    <Button
+        android:id="@+id/sister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="@string/sister" 
+        android:background="#99CCCC"/>
+
+</LinearLayout>
