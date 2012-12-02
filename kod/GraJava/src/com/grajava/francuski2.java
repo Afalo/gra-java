@@ -67,7 +67,7 @@ public class francuski2 extends Activity {
 							new Intent(getApplication(), francuski3a.class));
 					i++;
 					if(i>10){
-						setContentView(R.layout.sumang);
+						setContentView(R.layout.sumfr);
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 			
@@ -95,7 +95,7 @@ public class francuski2 extends Activity {
 							new Intent(getApplication(), francuski3a.class));
 					i++;
 					if(i>10){
-						setContentView(R.layout.sumang);
+						setContentView(R.layout.sumfr);
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 		
@@ -123,7 +123,7 @@ public class francuski2 extends Activity {
 							new Intent(getApplication(), francuski3a.class));
 					i++;
 					if(i>10){
-						setContentView(R.layout.sumang);
+						setContentView(R.layout.sumfr);
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 		
