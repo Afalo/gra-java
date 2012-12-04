@@ -42,7 +42,7 @@ public class francuski2 extends Activity {
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 						
-						tekst.setText("suma - fr = "+a+"!!!");
+						tekst.setText("Total de points: "+a+"!!!");
 						
 						frsu.setOnClickListener(new OnClickListener() {
 							
@@ -71,7 +71,7 @@ public class francuski2 extends Activity {
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 			
-						tekst.setText("suma - fr = "+a+"!!!");
+						tekst.setText("Total de points: "+a+"!!!");
 			
 						frsu.setOnClickListener(new OnClickListener() {
 				
@@ -99,7 +99,7 @@ public class francuski2 extends Activity {
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 		
-						tekst.setText("suma - fr = "+a+"!!!");
+						tekst.setText("Total de points: "+a+"!!!");
 		
 						frsu.setOnClickListener(new OnClickListener() {
 			
@@ -127,7 +127,7 @@ public class francuski2 extends Activity {
 						frsu = (ImageButton) findViewById(R.id.ibfs);
 						tekst = (TextView)findViewById(R.id.tvfs);
 		
-						tekst.setText("suma - fr = "+a+"!!!");
+						tekst.setText("Total de points: "+a+"!!!");
 		
 						frsu.setOnClickListener(new OnClickListener() {
 			
