@@ -26,10 +26,10 @@
 	<string name="samochod">samochód</string> 
 	<string name="pies">pies</string> 
 	<string name="siostra">siostra</string> 
-	<string name="pointf">Felicitations! T'as gagne un point! :)</string> 
+	<string name="pointf">Felicitations! T as gagne un point! :)</string> 
 	<string name="punkt">Zdobyles punkt!! :)</string> 
 	<string name="zle">zle! :(</string> 
-	<string name="mal">Helas, t'es trompe! :(</string> 
+	<string name="mal">Helas, t es trompe! :(</string> 
 	<string name="sumpol">Suma punktow = .. !!</string> 
 	<string name="sumfr">Total de points: </string>
 
