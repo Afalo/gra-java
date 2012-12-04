@@ -15,7 +15,7 @@
 	<string name="francuski">FRANCE</string> 
 	<string name="angielski">ENGLISH</string> 
 	<string name="cofnij">COFNIJ</string> 
-	<string name="point">One point more!! :)</string> 
+	<string name="point">One more point!! :)</string> 
 	<string name="wrong">Wrong!! ;(</string> 
 	<string name="sumang">Your score =  :)</string> 
 	<string name="coeur">coeur</string> 
@@ -26,11 +26,11 @@
 	<string name="samochod">samochód</string> 
 	<string name="pies">pies</string> 
 	<string name="siostra">siostra</string> 
-	<string name="pointf">pkt - fr</string> 
+	<string name="pointf">Felicitations! T'as gagne un point! :)</string> 
 	<string name="punkt">Zdobyles punkt!! :)</string> 
 	<string name="zle">zle! :(</string> 
-	<string name="mal">zle -fr</string> 
+	<string name="mal">Helas, t'es trompe! :(</string> 
 	<string name="sumpol">Suma punktow = .. !!</string> 
-	<string name="sumfr">sum pkt - fr</string>
+	<string name="sumfr">Total de points: </string>
 
 </resources>
