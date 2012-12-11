@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGraFr" project="GraJavaTesty" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="7.941">
+    <testsuite name="com.grajava.test.TestGraFr" time="7.941">
+      <testcase name="testDobraOdpowiedz " classname="com.grajava.test.TestGraFr" time="4.44"/>
+      <testcase name="testZlaOdpowiedz " classname="com.grajava.test.TestGraFr" time="3.501"/>
+    </testsuite>
+  </testsuite>
+</testrun>

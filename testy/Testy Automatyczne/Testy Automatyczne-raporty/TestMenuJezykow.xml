@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestMenuJezykow" project="GraJavaTesty" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="24.026">
+    <testsuite name="com.grajava.test.TestMenuJezykow" time="24.026">
+      <testcase name="testButtonAng " classname="com.grajava.test.TestMenuJezykow" time="2.467"/>
+      <testcase name="testButtonCof " classname="com.grajava.test.TestMenuJezykow" time="1.976"/>
+      <testcase name="testButtonFr " classname="com.grajava.test.TestMenuJezykow" time="2.251"/>
+      <testcase name="testButtonPl " classname="com.grajava.test.TestMenuJezykow" time="2.201"/>
+      <testcase name="testClickButtonAng " classname="com.grajava.test.TestMenuJezykow" time="4.027"/>
+      <testcase name="testClickButtonCof " classname="com.grajava.test.TestMenuJezykow" time="3.725"/>
+      <testcase name="testClickButtonFr " classname="com.grajava.test.TestMenuJezykow" time="3.626"/>
+      <testcase name="testClickButtonPl " classname="com.grajava.test.TestMenuJezykow" time="3.753"/>
+    </testsuite>
+  </testsuite>
+</testrun>

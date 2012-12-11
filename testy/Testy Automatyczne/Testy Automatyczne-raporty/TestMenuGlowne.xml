@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestMenuGlowne" project="GraJavaTesty" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="10.138">
+    <testsuite name="com.grajava.test.TestMenuGlowne" time="10.138">
+      <testcase name="testButtonOption " classname="com.grajava.test.TestMenuGlowne" time="2.688"/>
+      <testcase name="testButtonStart " classname="com.grajava.test.TestMenuGlowne" time="1.874"/>
+      <testcase name="testClickButtonOption " classname="com.grajava.test.TestMenuGlowne" time="2.075"/>
+      <testcase name="testClickButtonStart " classname="com.grajava.test.TestMenuGlowne" time="3.501"/>
+    </testsuite>
+  </testsuite>
+</testrun>
