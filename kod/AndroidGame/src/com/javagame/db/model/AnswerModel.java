@@ -15,7 +15,6 @@ public class AnswerModel {
 		this.pictureId = pictureId;
 		this.langVersion = langVersion;
 	}
-
 	public long getId() {
 		return id;
 	}
