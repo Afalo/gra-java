@@ -13,5 +13,4 @@ public class StaticHelper {
 	public static final String LANG_VERSION_EN = "EN";
 
 	public static final String LANG_VERSION_FR = "FR";
-
 }
