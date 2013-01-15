@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MainActivity_PlTest" project="AndroidGameTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="4.939">
+    <testsuite name="com.javagame.test.MainActivity_PlTest" time="4.939">
+      <testcase name="testClickButtonPl " classname="com.javagame.test.MainActivity_PlTest" time="4.939"/>
+    </testsuite>
+  </testsuite>
+</testrun>

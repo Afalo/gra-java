@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestFrIntro" project="GraJavaTesty" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="3.703">
-    <testsuite name="com.grajava.test.TestFrIntro" time="3.703">
-      <testcase name="testClickButtonFr " classname="com.grajava.test.TestFrIntro" time="3.703"/>
-    </testsuite>
-  </testsuite>
-</testrun>

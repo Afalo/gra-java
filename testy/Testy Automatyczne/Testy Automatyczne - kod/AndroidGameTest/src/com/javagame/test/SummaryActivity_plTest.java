@@ -1,22 +1,14 @@
 package com.javagame.test;
 
 import com.jayway.android.robotium.solo.Solo;
-
-import android.content.Context;
 import android.test.ActivityInstrumentationTestCase2;
-import com.javagame.*;
-import com.javagame.db.DatabaseAdapter;
-import com.javagame.utils.StaticHelper;
+import com.javagame.SummaryActivity_pl;
 
-
-
-public class MainActivity_Pol extends ActivityInstrumentationTestCase2<MainActivity_pl> {
+public class SummaryActivity_plTest extends ActivityInstrumentationTestCase2<SummaryActivity_pl> {
 	 private Solo solo;
-	  DatabaseAdapter db = new DatabaseAdapter(null);
-	  StaticHelper sh = new StaticHelper();
-	  public MainActivity_Pol() {
-		  super(MainActivity_pl.class);
-		  
+	  
+	  public SummaryActivity_plTest() {
+		  super(SummaryActivity_pl.class);
 	  }
 	  
 	  @Override
@@ -24,12 +16,17 @@ public class MainActivity_Pol extends ActivityInstrumentationTestCase2<MainActiv
 		  solo = new Solo(getInstrumentation(), getActivity());
 	  }
 	  
+	  public void testButtonMenu() throws Exception {
+		  solo.assertCurrentActivity("Expected activity", "SummaryActivity_pl");
+		  assertTrue(solo.searchText("Menu"));
+	  }
+	    
 	  // Test pressing a button.
-	  public void testClickButtonPl() throws Exception {
-		solo.clickOnImageButton(0); 
-		db.open(null);
-	    solo.assertCurrentActivity("Expected activity", "MyQuestionActivity_pl");
+	  public void testClickButtonMenu() throws Exception {
+	    solo.clickOnButton("Menu");
+	    solo.assertCurrentActivity("Expected activity", "Choose");
 	    solo.finishOpenedActivities();
+
 	  }
 	  
 	  @Override
@@ -46,3 +43,4 @@ public class MainActivity_Pol extends ActivityInstrumentationTestCase2<MainActiv
 
 	  }
 }
+

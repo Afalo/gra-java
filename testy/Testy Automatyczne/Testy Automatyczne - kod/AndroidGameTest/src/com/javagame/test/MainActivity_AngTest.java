@@ -2,14 +2,13 @@ package com.javagame.test;
 
 import com.jayway.android.robotium.solo.Solo;
 import android.test.ActivityInstrumentationTestCase2;
-import com.javagame.MainActivity_fr;
+import com.javagame.MainActivity_ang;
 
-public class MainActivity_Fr extends ActivityInstrumentationTestCase2<MainActivity_fr> {
+public class MainActivity_AngTest extends ActivityInstrumentationTestCase2<MainActivity_ang> {
 	 private Solo solo;
 	  
-	  @SuppressWarnings("deprecation")
-	  public MainActivity_Fr() {
-		  super("com.javagame", MainActivity_fr.class);
+	  public MainActivity_AngTest() {
+		  super(MainActivity_ang.class);
 	  }
 	  
 	  @Override
@@ -20,7 +19,7 @@ public class MainActivity_Fr extends ActivityInstrumentationTestCase2<MainActivi
 	  // Test pressing a button.
 	  public void testClickButtonAng() throws Exception {
 		solo.clickOnImageButton(0); 
-	    solo.assertCurrentActivity("Expected activity", "MyQuestionActivity_fr");
+	    solo.assertCurrentActivity("Expected activity", "MyQuestionActivity_ang");
 	  }
 	  
 	  @Override
@@ -37,3 +36,4 @@ public class MainActivity_Fr extends ActivityInstrumentationTestCase2<MainActivi
 
 	  }
 }
+

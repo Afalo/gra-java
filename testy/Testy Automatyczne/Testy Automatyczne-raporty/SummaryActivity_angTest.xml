@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGraAng" project="GraJavaTesty" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="8.318">
-    <testsuite name="com.grajava.test.TestGraAng" time="8.318">
-      <testcase name="testDobraOdpowiedz " classname="com.grajava.test.TestGraAng" time="4.817"/>
-      <testcase name="testZlaOdpowiedz " classname="com.grajava.test.TestGraAng" time="3.501"/>
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SummaryActivity_angTest" project="AndroidGameTest" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="7.231">
+    <testsuite name="com.javagame.test.SummaryActivity_angTest" time="7.231">
+      <testcase name="testButtonMenu " classname="com.javagame.test.SummaryActivity_angTest" time="3.2"/>
+      <testcase name="testClickButtonMenu " classname="com.javagame.test.SummaryActivity_angTest" time="4.031"/>
     </testsuite>
   </testsuite>
 </testrun>

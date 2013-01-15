@@ -7,9 +7,8 @@ import com.javagame.SummaryActivity_ang;
 public class SummaryActivity_angTest extends ActivityInstrumentationTestCase2<SummaryActivity_ang> {
 	 private Solo solo;
 	  
-	  @SuppressWarnings("deprecation")
 	  public SummaryActivity_angTest() {
-		  super("com.javagame", SummaryActivity_ang.class);
+		  super(SummaryActivity_ang.class);
 	  }
 	  
 	  @Override
@@ -17,10 +16,17 @@ public class SummaryActivity_angTest extends ActivityInstrumentationTestCase2<Su
 		  solo = new Solo(getInstrumentation(), getActivity());
 	  }
 	  
+	  public void testButtonMenu() throws Exception {
+		  solo.assertCurrentActivity("Expected activity", "SummaryActivity_ang");
+		  assertTrue(solo.searchText("Menu"));
+	  }
+	    
 	  // Test pressing a button.
-	  public void testClickButtonAng() throws Exception {
-		solo.clickOnImageButton(0); 
-	    solo.assertCurrentActivity("Expected activity", "SummaryActivity_ang");
+	  public void testClickButtonMenu() throws Exception {
+	    solo.clickOnButton("Menu");
+	    solo.assertCurrentActivity("Expected activity", "Choose");
+	    solo.finishOpenedActivities();
+
 	  }
 	  
 	  @Override
@@ -37,3 +43,4 @@ public class SummaryActivity_angTest extends ActivityInstrumentationTestCase2<Su
 
 	  }
 }
+

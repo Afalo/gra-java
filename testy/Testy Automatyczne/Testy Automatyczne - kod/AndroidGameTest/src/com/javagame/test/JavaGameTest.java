@@ -52,7 +52,7 @@ public class JavaGameTest extends ActivityInstrumentationTestCase2<JavaGame> {
 		    
 	// Test pressing an exit button.
 	  /*public void testClickButtonWyjscie() throws Exception {
-		solo.clickOnButton("WYJŒCIE");
+		solo.clickOnButton("WYJï¿½CIE");
 		solo.assertCurrentActivity("Expected finish", "");
 	  }*/
 	  
@@ -70,3 +70,4 @@ public class JavaGameTest extends ActivityInstrumentationTestCase2<JavaGame> {
 
 	  }
 }
+

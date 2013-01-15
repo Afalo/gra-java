@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OptionTest" project="AndroidGameTest" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="7.267">
+    <testsuite name="com.javagame.test.OptionTest" time="7.267">
+      <testcase name="testButtonCof " classname="com.javagame.test.OptionTest" time="2.764"/>
+      <testcase name="testClickButtonCof " classname="com.javagame.test.OptionTest" time="4.503"/>
+    </testsuite>
+  </testsuite>
+</testrun>

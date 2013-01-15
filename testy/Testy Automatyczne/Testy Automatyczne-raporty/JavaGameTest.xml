@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="JavaGameTest" project="AndroidGameTest" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="13.848">
-    <testsuite name="com.javagame.test.JavaGameTest" time="13.847">
-      <testcase name="testButtonOption " classname="com.javagame.test.JavaGameTest" time="2.418"/>
-      <testcase name="testButtonStart " classname="com.javagame.test.JavaGameTest" time="1.839"/>
-      <testcase name="testButtonWyjscie " classname="com.javagame.test.JavaGameTest" time="1.972"/>
-      <testcase name="testClickButtonOption " classname="com.javagame.test.JavaGameTest" time="3.748"/>
-      <testcase name="testClickButtonStart " classname="com.javagame.test.JavaGameTest" time="3.87"/>
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="16.078">
+    <testsuite name="com.javagame.test.JavaGameTest" time="16.078">
+      <testcase name="testButtonOption " classname="com.javagame.test.JavaGameTest" time="2.64"/>
+      <testcase name="testButtonStart " classname="com.javagame.test.JavaGameTest" time="2.377"/>
+      <testcase name="testButtonWyjscie " classname="com.javagame.test.JavaGameTest" time="2.678"/>
+      <testcase name="testClickButtonOption " classname="com.javagame.test.JavaGameTest" time="4.079"/>
+      <testcase name="testClickButtonStart " classname="com.javagame.test.JavaGameTest" time="4.304"/>
     </testsuite>
   </testsuite>
 </testrun>

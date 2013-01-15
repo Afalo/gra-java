@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGraPl" project="GraJavaTesty" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="8.591">
-    <testsuite name="com.grajava.test.TestGraPl" time="8.591">
-      <testcase name="testDobraOdpowiedz " classname="com.grajava.test.TestGraPl" time="4.99"/>
-      <testcase name="testZlaOdpowiedz " classname="com.grajava.test.TestGraPl" time="3.601"/>
-    </testsuite>
-  </testsuite>
-</testrun>

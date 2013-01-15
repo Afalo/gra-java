@@ -1,15 +1,20 @@
 package com.javagame.test;
 
 import com.jayway.android.robotium.solo.Solo;
-import android.test.ActivityInstrumentationTestCase2;
-import com.javagame.SummaryActivity_pl;
 
-public class SummaryActivity_polTest extends ActivityInstrumentationTestCase2<SummaryActivity_pl> {
+import android.content.Context;
+import android.test.ActivityInstrumentationTestCase2;
+import com.javagame.*;
+import com.javagame.db.DatabaseAdapter;
+import com.javagame.utils.StaticHelper;
+
+
+
+public class MainActivity_PlTest extends ActivityInstrumentationTestCase2<MainActivity_pl> {
 	 private Solo solo;
-	  
-	  @SuppressWarnings("deprecation")
-	  public SummaryActivity_polTest() {
-		  super("com.javagame", SummaryActivity_pl.class);
+	  public MainActivity_PlTest() {
+		  super(MainActivity_pl.class);
+		  
 	  }
 	  
 	  @Override
@@ -18,9 +23,10 @@ public class SummaryActivity_polTest extends ActivityInstrumentationTestCase2<Su
 	  }
 	  
 	  // Test pressing a button.
-	  public void testClickButtonAng() throws Exception {
+	  public void testClickButtonPl() throws Exception {
 		solo.clickOnImageButton(0); 
-	    solo.assertCurrentActivity("Expected activity", "SummaryActivity_pl");
+	    solo.assertCurrentActivity("Expected activity", "MyQuestionActivity_pl");
+	    solo.finishOpenedActivities();
 	  }
 	  
 	  @Override
@@ -37,3 +43,4 @@ public class SummaryActivity_polTest extends ActivityInstrumentationTestCase2<Su
 
 	  }
 }
+

@@ -87,3 +87,4 @@ public class ChooseTest extends ActivityInstrumentationTestCase2<Choose> {
 
 	  }
 }
+

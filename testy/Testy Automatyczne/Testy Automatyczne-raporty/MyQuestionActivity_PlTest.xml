@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyQuestionActivity_PlTest" project="AndroidGameTest" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="45.346">
+    <testsuite name="com.javagame.test.MyQuestionActivity_PlTest" time="45.346">
+      <testcase name="testButtonPl " classname="com.javagame.test.MyQuestionActivity_PlTest" time="2.706"/>
+      <testcase name="testClickButtonPl1 " classname="com.javagame.test.MyQuestionActivity_PlTest" time="4.106"/>
+      <testcase name="testClickButtonPlD " classname="com.javagame.test.MyQuestionActivity_PlTest" time="26.223"/>
+      <testcase name="testClickRButtonPl0 " classname="com.javagame.test.MyQuestionActivity_PlTest" time="3.103"/>
+      <testcase name="testClickRButtonPl1 " classname="com.javagame.test.MyQuestionActivity_PlTest" time="3.003"/>
+      <testcase name="testClickRButtonPl2 " classname="com.javagame.test.MyQuestionActivity_PlTest" time="3.003"/>
+      <testcase name="testClickRButtonPl3 " classname="com.javagame.test.MyQuestionActivity_PlTest" time="3.202"/>
+    </testsuite>
+  </testsuite>
+</testrun>

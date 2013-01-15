@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGraAng" project="GraJavaTesty" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="8.318">
-    <testsuite name="com.grajava.test.TestGraAng" time="8.318">
-      <testcase name="testDobraOdpowiedz " classname="com.grajava.test.TestGraAng" time="4.817"/>
-      <testcase name="testZlaOdpowiedz " classname="com.grajava.test.TestGraAng" time="3.501"/>
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyQuestionActivity_angtest" project="AndroidGameTest" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="45.169">
+    <testsuite name="com.javagame.test.MyQuestionActivity_AngTest" time="45.169">
+      <testcase name="testButtonAng " classname="com.javagame.test.MyQuestionActivity_AngTest" time="2.754"/>
+      <testcase name="testClickButtonAng1 " classname="com.javagame.test.MyQuestionActivity_AngTest" time="4.253"/>
+      <testcase name="testClickButtonAngD " classname="com.javagame.test.MyQuestionActivity_AngTest" time="26.249"/>
+      <testcase name="testClickRButtonAng0 " classname="com.javagame.test.MyQuestionActivity_AngTest" time="2.953"/>
+      <testcase name="testClickRButtonAng1 " classname="com.javagame.test.MyQuestionActivity_AngTest" time="2.928"/>
+      <testcase name="testClickRButtonAng2 " classname="com.javagame.test.MyQuestionActivity_AngTest" time="2.953"/>
+      <testcase name="testClickRButtonAng3 " classname="com.javagame.test.MyQuestionActivity_AngTest" time="3.078"/>
     </testsuite>
   </testsuite>
 </testrun>
