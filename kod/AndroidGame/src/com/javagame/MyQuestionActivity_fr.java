@@ -15,7 +15,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -35,7 +38,13 @@ public class MyQuestionActivity_fr extends Activity {
 	RadioButton a3 = null;
 	RadioButton a4 = null;
 	ImageView image = null;
-
+	MediaPlayer mp;
+	String info;
+	static boolean music=true;
+	
+	public static void putExtra(boolean yes){
+		music=yes;
+	}
 	private int goodAnswerId = -1;
 	private int goodAnswerCounter = 0;
 	private int questionCount = 0;
@@ -46,13 +55,13 @@ public class MyQuestionActivity_fr extends Activity {
 
 	long counter = 1;
 
-	String langVersion = "";
-
 	DatabaseAdapter databaseAdapter = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation (1);
+		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.activity_my_question);
 
 		next = (Button) findViewById(R.id.next);
@@ -66,9 +75,7 @@ public class MyQuestionActivity_fr extends Activity {
 
 		image = (ImageView) findViewById(R.id.image);
 
-		questionCount = getIntent().getIntExtra(StaticHelper.FLAG_QUEST_AMOUNT, 4);
-		langVersion = getIntent().getStringExtra(StaticHelper.FLAG_LANG_VERSION);
-
+		questionCount = getIntent().getIntExtra(StaticHelper.FLAG_QUEST_AMOUNT, 10);
 		displayedPictureId = new ArrayList<Long>();
 
 		setView();
@@ -82,15 +89,25 @@ public class MyQuestionActivity_fr extends Activity {
 			if(checkedId != -1) {
 				int selectedPosition = answers.indexOfChild(findViewById(checkedId));
 
-				String info = "Helas, t es trompe!";
 				if (selectedPosition == goodAnswerId) {
+					mp = MediaPlayer.create(MyQuestionActivity_fr.this, R.raw.good);
 					goodAnswerCounter++;
 					info = "T as gagne un point!. Total de points: " + goodAnswerCounter;
 				}
-
+				else{
+					mp = MediaPlayer.create(MyQuestionActivity_fr.this, R.raw.wrong);
+					info = "Helas, t es trompe!";
+				}
+				if(music==true){
+				if(mp!=null){
+					mp.start();
+				}
+				}
 				Toast toast = Toast.makeText(getApplicationContext(), info, Toast.LENGTH_SHORT);
 				toast.show();
-
+				do{
+				}while(mp.isPlaying()==true);
+				
 				if (currentQuestion < questionCount) {
 					currentQuestion++;
 					setView();
@@ -101,14 +118,17 @@ public class MyQuestionActivity_fr extends Activity {
 					i.putExtra(StaticHelper.FLAG_GOOD_QUEST_AMOUNT, goodAnswerCounter);
 
 					//forward to activity
+					mp.release();
 					startActivity(i);
 					System.gc();
 					finish();
 				}
+				
 			} else {
 				Toast toast = Toast.makeText(getApplicationContext(), "Pas de réponses", Toast.LENGTH_SHORT);
 				toast.show();
 			}
+			mp.release();
 		}
 
 	}
@@ -128,7 +148,7 @@ public class MyQuestionActivity_fr extends Activity {
 			Bitmap bitmap = BitmapFactory.decodeByteArray(pictureModel.getPicture(), 0, pictureModel.getPicture().length);
 			this.image.setImageBitmap(bitmap);
 
-			AnswerModel[] ansersDb = databaseAdapter.get4AnswersForPicture(pictureModel.getId(), langVersion);
+			AnswerModel[] ansersDb = databaseAdapter.get4AnswersForPicture(pictureModel.getId(), StaticHelper.LANG_VERSION_FR);
 
 			checkGoodAnswer(ansersDb[0], 0);
 			this.a1.setText(ansersDb[0].getDescription());

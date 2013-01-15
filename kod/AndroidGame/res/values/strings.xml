@@ -24,6 +24,20 @@
 	<string name="muzyka">Muzyka</string> 
 	<string name="Add">Dodaj słowo</string> 
 	<string name="Delete">Usuń słowo</string> 
+	<string name="add_to_database">DODAJ DO BAZY</string> 
+	<string name="add_fr">Wpisz słowo po francusku</string> 
+	<string name="add_en">Wpisz słowo po angielsku</string> 
+	<string name="add_pl">Wpisz słowo po polsku</string> 
+	<string name="searchDelete">Wyszukaj słowo do usunięcia</string> 
+	<string name="delete">Usuń</string> 
+	<string name="jmajra">Autorzy: 
+	    Jakub Matusik, Agnieszka Jabłońska, Rafał Antczak
+	</string> 
+	<string name="Autor">AUTORZY</string> 
+	<string name="uj">Projekt wykonany dla Uniwersytetu Jagielońskiego</string> 
+	<string name="Jakub">Jakub Matusik - kod aplikacji</string> 
+	<string name="Agnieszka">Agnieszka Jabłońska - oprawa graficzna i dźwiękowa</string> 
+	<string name="Rafal">Rafał Antczak - kod bazy</string> 
 	
 
 </resources>

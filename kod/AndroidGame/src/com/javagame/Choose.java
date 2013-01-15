@@ -2,6 +2,7 @@ package com.javagame;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -17,6 +18,8 @@ public class Choose extends Activity {
 
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation (1);
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.activity_choose);
 		polski = (Button) findViewById(R.id.polski);
 		angielski = (Button) findViewById(R.id.angielski);

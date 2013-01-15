@@ -2,14 +2,14 @@
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="@drawable/tlo">
-
+    android:background="@drawable/tlo"
+    android:orientation="vertical" >
 
     <Button
         android:id="@+id/Start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
         android:layout_marginTop="48dp"
         android:text="@string/start" />
 
@@ -17,14 +17,25 @@
         android:id="@+id/opcje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
         android:layout_marginTop="42dp"
         android:text="@string/opcje" />
+
+    <Button
+        android:id="@+id/autorzy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="@string/Autor" />
 
     <Button
         android:id="@+id/Wyjscie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
         android:layout_marginTop="42dp"
         android:text="@string/wyjscie" />
+
+
 
 </LinearLayout>

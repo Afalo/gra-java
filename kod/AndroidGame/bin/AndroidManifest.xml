@@ -70,6 +70,18 @@
             android:name="com.javagame.Option"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.javagame.AddActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.javagame.DeleteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.javagame.AutorActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

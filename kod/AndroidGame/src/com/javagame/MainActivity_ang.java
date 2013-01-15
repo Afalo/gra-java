@@ -4,6 +4,7 @@ import com.javagame.utils.StaticHelper;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -23,17 +24,17 @@ public class MainActivity_ang extends Activity {
 
 	ImageButton imagebutton;
 	
-	String langVersion = "";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation (1);
+		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.activity_main_ang);
 		
 		imagebutton = (ImageButton) findViewById(R.id.ang);
 		imagebutton.setOnClickListener(new ClickListener());
 
-		langVersion = getIntent().getStringExtra(StaticHelper.FLAG_LANG_VERSION);
 	}
 
 	class ClickListener implements OnClickListener {
@@ -43,7 +44,7 @@ public class MainActivity_ang extends Activity {
 			// move data to other activity
 			Intent i = new Intent(getApplication(), MyQuestionActivity_ang.class);
 			i.putExtra(StaticHelper.FLAG_QUEST_AMOUNT, questionsAmount);
-			i.putExtra(StaticHelper.FLAG_LANG_VERSION, langVersion);
+			i.putExtra(StaticHelper.FLAG_LANG_VERSION, StaticHelper.LANG_VERSION_EN);
 
 			//forward to activity
 			startActivity(i);

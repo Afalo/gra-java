@@ -3,6 +3,7 @@ package com.javagame;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.javagame.Start.SplashHandler;
 import com.javagame.db.DatabaseAdapter;
 import com.javagame.db.model.AnswerModel;
 import com.javagame.db.model.PictureModel;
@@ -15,8 +16,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -29,7 +33,6 @@ import android.widget.Toast;
 
 public class MyQuestionActivity_ang extends Activity {
 
-	MediaPlayer mp;
 	Button next = null;
 	RadioGroup answers = null;
 	RadioButton a1 = null;
@@ -37,7 +40,14 @@ public class MyQuestionActivity_ang extends Activity {
 	RadioButton a3 = null;
 	RadioButton a4 = null;
 	ImageView image = null;
-
+	MediaPlayer mp;
+	String info;
+	static boolean music=true;;
+	
+	public static void putExtra(boolean yes){
+		music=yes;
+	}
+	
 	private int goodAnswerId = -1;
 	private int goodAnswerCounter = 0;
 	private int questionCount = 0;
@@ -48,13 +58,13 @@ public class MyQuestionActivity_ang extends Activity {
 
 	long counter = 1;
 
-	String langVersion = "";
-
 	DatabaseAdapter databaseAdapter = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setRequestedOrientation (1);
+		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.activity_my_question);
 
 		next = (Button) findViewById(R.id.next);
@@ -68,9 +78,7 @@ public class MyQuestionActivity_ang extends Activity {
 
 		image = (ImageView) findViewById(R.id.image);
 
-		questionCount = getIntent().getIntExtra(StaticHelper.FLAG_QUEST_AMOUNT, 4);
-		langVersion = getIntent().getStringExtra(StaticHelper.FLAG_LANG_VERSION);
-
+		questionCount = getIntent().getIntExtra(StaticHelper.FLAG_QUEST_AMOUNT, 10);
 		displayedPictureId = new ArrayList<Long>();
 
 		setView();
@@ -83,29 +91,37 @@ public class MyQuestionActivity_ang extends Activity {
 			int checkedId = answers.getCheckedRadioButtonId();
 			if(checkedId != -1) {
 				int selectedPosition = answers.indexOfChild(findViewById(checkedId));
-				//mp = MediaPlayer.create(MyQuestionActivity_ang.this, R.raw.minus);
-				//mp.start();
-				String info = "Wrong Answer";
+				
 				if (selectedPosition == goodAnswerId) {
-					//mp = MediaPlayer.create(MyQuestionActivity_ang.this, R.raw.plus);
-					//mp.start();
+					mp = MediaPlayer.create(MyQuestionActivity_ang.this, R.raw.good);
 					goodAnswerCounter++;
 					info = "Correct Answer. All points: " + goodAnswerCounter;
 				}
-
+				else{
+					mp = MediaPlayer.create(MyQuestionActivity_ang.this, R.raw.wrong);
+					info = "Wrong Answer";
+				}
+				if(music==true){
+				if(mp!=null){
+					mp.start();
+				}
+				}
+				
 				Toast toast = Toast.makeText(getApplicationContext(), info, Toast.LENGTH_SHORT);
 				toast.show();
-
+				do{
+					
+				}while(mp.isPlaying()==true);
 				if (currentQuestion < questionCount) {
 					currentQuestion++;
 					setView();
 				} else {
-
 					Intent i = new Intent(getApplication(), SummaryActivity_ang.class);
 					i.putExtra(StaticHelper.FLAG_QUEST_AMOUNT, questionCount);
 					i.putExtra(StaticHelper.FLAG_GOOD_QUEST_AMOUNT, goodAnswerCounter);
 
 					//forward to activity
+					mp.release();
 					startActivity(i);
 					System.gc();
 					finish();
@@ -114,6 +130,7 @@ public class MyQuestionActivity_ang extends Activity {
 				Toast toast = Toast.makeText(getApplicationContext(), "No Answer", Toast.LENGTH_SHORT);
 				toast.show();
 			}
+			mp.release();
 		}
 
 	}
@@ -133,7 +150,7 @@ public class MyQuestionActivity_ang extends Activity {
 			Bitmap bitmap = BitmapFactory.decodeByteArray(pictureModel.getPicture(), 0, pictureModel.getPicture().length);
 			this.image.setImageBitmap(bitmap);
 
-			AnswerModel[] ansersDb = databaseAdapter.get4AnswersForPicture(pictureModel.getId(), langVersion);
+			AnswerModel[] ansersDb = databaseAdapter.get4AnswersForPicture(pictureModel.getId(), StaticHelper.LANG_VERSION_EN);
 
 			checkGoodAnswer(ansersDb[0], 0);
 			this.a1.setText(ansersDb[0].getDescription());
@@ -184,5 +201,7 @@ public class MyQuestionActivity_ang extends Activity {
 	    	databaseAdapter.close();
 	    super.onDestroy();
 	}
+
+	
 
 }

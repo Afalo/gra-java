@@ -64,46 +64,49 @@ public final class R {
         public static final int zyrafa=0x7f02002f;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f090004;
-        public static final int Start=0x7f090005;
-        public static final int Wyjscie=0x7f090007;
-        public static final int a1=0x7f09000d;
-        public static final int a2=0x7f09000e;
-        public static final int a3=0x7f09000f;
-        public static final int a4=0x7f090010;
-        public static final int add=0x7f090014;
-        public static final int ang=0x7f090008;
-        public static final int angielski=0x7f090002;
-        public static final int answers=0x7f09000c;
-        public static final int cofnij=0x7f090003;
-        public static final int delete=0x7f090015;
-        public static final int fr=0x7f090009;
-        public static final int frameLayout1=0x7f090011;
-        public static final int francuski=0x7f090001;
-        public static final int image=0x7f090012;
-        public static final int ivs=0x7f090017;
-        public static final int menu=0x7f090016;
-        public static final int menu_settings=0x7f09001a;
-        public static final int music=0x7f090013;
-        public static final int next=0x7f09000b;
-        public static final int opcje=0x7f090006;
-        public static final int pl=0x7f09000a;
-        public static final int polski=0x7f090000;
-        public static final int textView1=0x7f090018;
-        public static final int textView2=0x7f090019;
+        public static final int GridLayout1=0x7f090018;
+        public static final int LinearLayout1=0x7f090008;
+        public static final int Start=0x7f090009;
+        public static final int Wyjscie=0x7f09000c;
+        public static final int a1=0x7f090012;
+        public static final int a2=0x7f090013;
+        public static final int a3=0x7f090014;
+        public static final int a4=0x7f090015;
+        public static final int ang=0x7f09000d;
+        public static final int angielski=0x7f090007;
+        public static final int answers=0x7f090011;
+        public static final int autorzy=0x7f09000b;
+        public static final int cofnij=0x7f090004;
+        public static final int fr=0x7f09000e;
+        public static final int frameLayout1=0x7f090016;
+        public static final int francuski=0x7f090006;
+        public static final int image=0x7f090017;
+        public static final int ivs=0x7f09001b;
+        public static final int menu=0x7f09001a;
+        public static final int menu_settings=0x7f09001c;
+        public static final int music=0x7f090019;
+        public static final int next=0x7f090010;
+        public static final int opcje=0x7f09000a;
+        public static final int pl=0x7f09000f;
+        public static final int polski=0x7f090005;
+        public static final int textView1=0x7f090000;
+        public static final int textView2=0x7f090001;
+        public static final int textView3=0x7f090002;
+        public static final int textView4=0x7f090003;
     }
     public static final class layout {
-        public static final int activity_choose=0x7f030000;
-        public static final int activity_java_game=0x7f030001;
-        public static final int activity_main_ang=0x7f030002;
-        public static final int activity_main_fr=0x7f030003;
-        public static final int activity_main_pl=0x7f030004;
-        public static final int activity_my_question=0x7f030005;
-        public static final int activity_option=0x7f030006;
-        public static final int activity_start=0x7f030007;
-        public static final int activity_summary_ang=0x7f030008;
-        public static final int activity_summary_fr=0x7f030009;
-        public static final int activity_summary_pl=0x7f03000a;
+        public static final int activity_autor=0x7f030000;
+        public static final int activity_choose=0x7f030001;
+        public static final int activity_java_game=0x7f030002;
+        public static final int activity_main_ang=0x7f030003;
+        public static final int activity_main_fr=0x7f030004;
+        public static final int activity_main_pl=0x7f030005;
+        public static final int activity_my_question=0x7f030006;
+        public static final int activity_option=0x7f030007;
+        public static final int activity_start=0x7f030008;
+        public static final int activity_summary_ang=0x7f030009;
+        public static final int activity_summary_fr=0x7f03000a;
+        public static final int activity_summary_pl=0x7f03000b;
     }
     public static final class menu {
         public static final int activity_choose=0x7f080000;
@@ -114,22 +117,37 @@ public final class R {
         public static final int activity_summary=0x7f080005;
     }
     public static final class raw {
-        public static final int minus=0x7f040000;
-        public static final int plus=0x7f040001;
-        public static final int suma=0x7f040002;
+        public static final int en=0x7f040000;
+        public static final int fr=0x7f040001;
+        public static final int good=0x7f040002;
+        public static final int minus=0x7f040003;
+        public static final int pl=0x7f040004;
+        public static final int plus=0x7f040005;
+        public static final int suma=0x7f040006;
+        public static final int wrong=0x7f040007;
     }
     public static final class string {
         public static final int Add=0x7f060015;
+        public static final int Agnieszka=0x7f060021;
+        public static final int Autor=0x7f06001e;
         public static final int Delete=0x7f060016;
+        public static final int Jakub=0x7f060020;
+        public static final int Rafal=0x7f060022;
+        public static final int add_en=0x7f060019;
+        public static final int add_fr=0x7f060018;
+        public static final int add_pl=0x7f06001a;
+        public static final int add_to_database=0x7f060017;
         public static final int angielski=0x7f060012;
         public static final int app_name=0x7f060000;
         public static final int cofnij=0x7f060013;
+        public static final int delete=0x7f06001c;
         public static final int francuski=0x7f060011;
         public static final int goodQuestionCount_ang=0x7f060007;
         public static final int goodQuestionCount_fr=0x7f060009;
         public static final int goodQuestionCount_pl=0x7f060005;
         public static final int hello_world=0x7f060001;
         public static final int howManyQuest=0x7f060004;
+        public static final int jmajra=0x7f06001d;
         public static final int menu_settings=0x7f060002;
         public static final int muzyka=0x7f060014;
         public static final int opcje=0x7f06000f;
@@ -137,10 +155,12 @@ public final class R {
         public static final int question_ang=0x7f060008;
         public static final int question_fr=0x7f06000a;
         public static final int questions_pl=0x7f060006;
+        public static final int searchDelete=0x7f06001b;
         public static final int start=0x7f06000d;
         public static final int title_activity_activ_1=0x7f060003;
         public static final int title_activity_java_game=0x7f06000b;
         public static final int title_activity_start=0x7f06000c;
+        public static final int uj=0x7f06001f;
         public static final int wyjscie=0x7f06000e;
     }
     public static final class style {
