@@ -1115,6 +1115,7 @@ public class DatabaseAdapter {
 		    newValues.put(PICTURE_ID_KEY, 40L);
 		    db.insert(DB_ANSWERS_TABLE, null, newValues);
 
+
 	    }
 	}
 

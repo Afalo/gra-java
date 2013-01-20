@@ -25,5 +25,6 @@ public class PictureModel {
 	public void setPicture(byte[] picture) {
 		this.picture = picture;
 	}
+	
 
 }

@@ -28,15 +28,32 @@ public class Option extends Activity {
 	@SuppressLint("NewApi")
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setRequestedOrientation (1);
 		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		setContentView(R.layout.activity_option);
+		Add = (Button) findViewById(R.id.add);
+		Delete = (Button) findViewById(R.id.delete);
 		Back = (Button) findViewById(R.id.menu);
 		Music = (Switch) findViewById(R.id.music);
 		
 		Music.setChecked(ustaw);
 
-	
+		Add.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				startActivity(new Intent(getApplication(), AddActivity.class));
+				System.gc();
+				finish();
+			}
+		});
+
+		Delete.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				startActivity(new Intent(getApplication(), DeleteActivity.class));
+				System.gc();
+				finish();
+			}
+		});
 		Back.setOnClickListener(new OnClickListener() {
 
 			public void onClick(View v) {
