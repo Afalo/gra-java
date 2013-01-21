@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context=".SettingsActivityMain" >
+
+    <Button
+        android:id="@+id/buttonNewOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:text="@string/optionNew" />
+
+    <Switch
+        android:id="@+id/music"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:checked="true"
+        android:text="@string/Muzyka"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+    <Button
+        android:id="@+id/buttonDeleteOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonNewOption"
+        android:layout_marginTop="51dp"
+        android:text="@string/optionDelete" />
+
+    <Button
+        android:id="@+id/buttonBackOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonDeleteOption"
+        android:layout_marginTop="47dp"
+        android:text="@string/cofnij" />
+
+</RelativeLayout>

@@ -37,7 +37,7 @@ public class JavaGame extends Activity {
 		Option.setOnClickListener(new OnClickListener(){
 			
 			public void onClick(View v){
-				startActivity(new Intent(getApplication(), Option.class));
+				startActivity(new Intent(getApplication(), SettingsActivityMain.class));
 				System.gc();
 				finish();
 			}

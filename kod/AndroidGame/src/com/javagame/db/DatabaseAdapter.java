@@ -29,7 +29,7 @@ public class DatabaseAdapter {
 
 	private static final String DEBUG_TAG = "DatabaseAdapter";
 
-	private static final int DB_VERSION = 21;
+	private static final int DB_VERSION = 22;
     private static final String DB_NAME = "database.db";
     private static final String DB_ANSWERS_TABLE = "answers";
 
@@ -78,6 +78,8 @@ public class DatabaseAdapter {
 	private SQLiteDatabase db;
 	private final Context context;
 	private DatabaseHelper dbHelper;
+	
+	private static int compress = 10;
 
 	public DatabaseAdapter(Context context) {
 		this.context = context;
@@ -120,8 +122,23 @@ public class DatabaseAdapter {
 	    return db.update(DB_ANSWERS_TABLE, updateTodoValues, where, null) > 0;
 	}
 
-	public boolean delete(long id){
+	public boolean deleteAnswer(long id){
 	    String where = ID_KEY + "=" + id;
+	    return db.delete(DB_ANSWERS_TABLE, where, null) > 0;
+	}
+	
+	/**
+	 * Delete picture with id;
+	 * @param pictureId
+	 * @return .
+	 */
+	private boolean deletePicture(long pictureId){
+	    String where =  IMAGE_ID_KEY + "=" + pictureId;
+	    return db.delete(DB_IMAGE_TABLE, where, null) > 0;
+	}
+	
+	private boolean deletePictureAnswers(long pictureId){
+	    String where = PICTURE_ID_KEY + "=" + pictureId;
 	    return db.delete(DB_ANSWERS_TABLE, where, null) > 0;
 	}
 
@@ -142,6 +159,30 @@ public class DatabaseAdapter {
 	        model = new AnswerModel(id, description, pictureId, langVersion);
 	    }
 	    return model;
+	}
+	
+	public List<AnswerModel> getAllAnswerByLang(String langVersion) {
+	    String[] columns = {ID_KEY, DESCRIPTION_KEY, PICTURE_ID_KEY, LANG_VERSION_KEY};
+	    String where = LANG_VERSION_KEY + "='" + langVersion + "'";
+	    Cursor cursor = db.query(DB_ANSWERS_TABLE, columns, where, null, null, null, null);
+	    List<AnswerModel> models = new ArrayList<AnswerModel>();
+	    if (cursor.moveToFirst()) {
+			do {
+				String description = cursor.getString(DESCRIPTION_COLUMN);
+		        Long pictureId = cursor.getLong(PICTURE_ID_COLUMN);
+		        Long id = cursor.getLong(ID_COLUMN);
+		        models.add(new AnswerModel(id, description, pictureId, langVersion));
+			} while (cursor.moveToNext());
+		}
+	    
+	    return models;
+	}
+	
+	public boolean deletePictureAndAnswers(Long pictureId) {
+	    if(deletePictureAnswers(pictureId)) {
+	    	return deletePicture(pictureId);
+	    }
+	    return false;
 	}
 
 	public PictureModel getRandomPicture(List<Long> pictureIdShowed) throws NoPictureNextException {
@@ -217,9 +258,16 @@ public class DatabaseAdapter {
 
 				if (count >= 4)
 					break;
+				
+				if(ids.size() == 0) {
+					if (!goodAnswerSelected) {
+						returnAnswers[count++] = modelGoodAnswer;
+					}
+					break;
+				}
 
 				// tu wrzucamy w random
-				if (!goodAnswerSelected) {
+				if (!goodAnswerSelected) {										
 					int goodRandom = random.nextInt(8);
 					Log.d(method, "Generate random answer for good answer: " + goodRandom + " < 3, count: " + count);
 					if (goodRandom < 2 || count == 3) {
@@ -249,6 +297,42 @@ public class DatabaseAdapter {
 		return returnAnswers;
 	}
 
+	public boolean savePictureWithAnswers(String picturePath, String answerPl, String answerEn, String answerFr) {
+		Log.d("savePictureWithAnswers", "START");
+		ContentValues newValues = new ContentValues();
+		
+		ByteArrayOutputStream blob = new ByteArrayOutputStream();
+		Bitmap image = BitmapFactory.decodeFile(picturePath);
+		image.compress(CompressFormat.JPEG, compress, blob);
+		byte[] imageByte = blob.toByteArray();
+		newValues.put(IMAGE_PICTURE_KEY, imageByte);
+    	long pictureId = db.insert(DB_IMAGE_TABLE, null, newValues);
+    	Log.d("savePictureWithAnswers", "Picture save, Size: " + imageByte.length);
+    	
+    	if (pictureId < 0) {
+    		return false;
+    	}
+    	
+    	newValues.remove(IMAGE_PICTURE_KEY);
+    	newValues.put(PICTURE_ID_KEY, pictureId);
+    	
+    	newValues.put(LANG_VERSION_KEY, StaticHelper.LANG_VERSION_PL);
+	    newValues.put(DESCRIPTION_KEY, answerPl);	    
+	    db.insert(DB_ANSWERS_TABLE, null, newValues);
+	    
+	    newValues.put(LANG_VERSION_KEY, StaticHelper.LANG_VERSION_EN);
+	    newValues.put(DESCRIPTION_KEY, answerEn);	    
+	    db.insert(DB_ANSWERS_TABLE, null, newValues);
+	    
+	    newValues.put(LANG_VERSION_KEY, StaticHelper.LANG_VERSION_FR);
+	    newValues.put(DESCRIPTION_KEY, answerFr);	    
+	    db.insert(DB_ANSWERS_TABLE, null, newValues);
+		
+	    Log.d("savePictureWithAnswers", "STOP");
+    	
+		return true;
+	}
+	
 	private AnswerModel getModel(Cursor cursor) {
 		AnswerModel model = null;
 		if(cursor != null && cursor.moveToFirst()) {
@@ -261,7 +345,6 @@ public class DatabaseAdapter {
 		cursor.close();
 		return model;
 	}
-
 
 	// =======================================
 

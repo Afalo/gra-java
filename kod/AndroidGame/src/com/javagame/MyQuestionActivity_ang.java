@@ -101,16 +101,18 @@ public class MyQuestionActivity_ang extends Activity {
 					mp = MediaPlayer.create(MyQuestionActivity_ang.this, R.raw.wrong);
 					info = "Wrong Answer";
 				}
+				
+				
 				if(music==true){
 				if(mp!=null){
 					mp.start();
 				}
 				}
-				
 				Toast toast = Toast.makeText(getApplicationContext(), info, Toast.LENGTH_SHORT);
-				toast.show();
 				do{
-					
+					if(mp!=null){
+						toast.show();
+					}
 				}while(mp.isPlaying()==true);
 				if (currentQuestion < questionCount) {
 					currentQuestion++;
@@ -121,7 +123,9 @@ public class MyQuestionActivity_ang extends Activity {
 					i.putExtra(StaticHelper.FLAG_GOOD_QUEST_AMOUNT, goodAnswerCounter);
 
 					//forward to activity
-					mp.release();
+					if(mp!=null){
+						mp.release();
+					}
 					startActivity(i);
 					System.gc();
 					finish();
@@ -130,7 +134,9 @@ public class MyQuestionActivity_ang extends Activity {
 				Toast toast = Toast.makeText(getApplicationContext(), "No Answer", Toast.LENGTH_SHORT);
 				toast.show();
 			}
-			mp.release();
+			if(mp!=null){
+				mp.release();
+			}
 		}
 
 	}

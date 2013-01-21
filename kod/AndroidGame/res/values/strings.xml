@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Nauka języków przez obrazki</string>
+    <string name="app_name">AndroidGame</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_activ_1">Activ_1</string>
-    <string name="howManyQuest">Określ ilość pytań:</string>
-    <string name="goodQuestionCount_pl">Odpowiedziałeś poprawnie na</string>
+     <string name="goodQuestionCount_pl">Odpowiedziałeś poprawnie na</string>
     <string name="questions_pl">pytań</string>
     <string name="goodQuestionCount_ang">You have answeared correctly for</string>
 	<string name="question_ang">questions</string>
 	<string name="goodQuestionCount_fr">Tu as répondu correctement à la</string>
 	<string name="question_fr">questions</string>
-    <string name="title_activity_java_game">JavaGame</string>
-    <string name="title_activity_start">Start</string>
-   	<string name="start">START</string>
+    <string name="start">START</string>
     <string name="wyjscie">WYJŚCIE</string>
     <string name="opcje">OPCJE</string>
-    <string name="polski">POLSKI</string> 
-	<string name="francuski">FRANCE</string> 
-	<string name="angielski">ENGLISH</string> 
-	<string name="cofnij">COFNIJ</string> 
-	<string name="muzyka">Muzyka</string> 
-	<string name="Add">Dodaj słowo</string> 
-	<string name="Delete">Usuń słowo</string> 
-	<string name="add_to_database">DODAJ DO BAZY</string> 
-	<string name="add_fr">Wpisz słowo po francusku</string> 
-	<string name="add_en">Wpisz słowo po angielsku</string> 
-	<string name="add_pl">Wpisz słowo po polsku</string> 
-	<string name="searchDelete">Wyszukaj słowo do usunięcia</string> 
-	<string name="delete">Usuń</string> 
-	<string name="jmajra">Autorzy: 
-	    Jakub Matusik, Agnieszka Jabłońska, Rafał Antczak
-	</string> 
-	<string name="Autor">AUTORZY</string> 
-	<string name="uj">Projekt wykonany dla Uniwersytetu Jagielońskiego</string> 
-	<string name="Jakub">Jakub Matusik - kod aplikacji</string> 
-	<string name="Agnieszka">Agnieszka Jabłońska - oprawa graficzna i dźwiękowa</string> 
-	<string name="Rafal">Rafał Antczak - kod bazy</string> 
-	
+    <string name="polski">POLSKI</string>
+    <string name="francuski">FRANCE</string>
+    <string name="angielski">ENGLISH</string>
+    <string name="cofnij">COFNIJ</string>
+    <string name="optionNew">Nowy wpis</string>
+    <string name="optionDelete">Usuń wpis</string>
+    <string name="meanPL">Polskie znaczenie</string>
+    <string name="meanEN">Angielskie znaczenie</string>
+    <string name="meanFR">Francuskie znaczenie</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+
+    <color name="gray">#ffff0000</color>
+
+    <string name="err">Error</string>
+    <string name="save">Zapisz</string>
+    <string name="remove">Usuń</string>
+    <string name="Autor">Autorzy</string>
+    <string name="uj">Aplikacja stworzona w ramach projektu na zajęcia inżynierii oprogramowania, Uniwersytet Jagielloński</string>
+    <string name="Jakub">Jakub Matusik - kod ogólny programu</string>
+    <string name="Agnieszka">Agnieszka Jabłońska - oprawa graficzna i muzyczna, testy programu</string>
+    <string name="Rafal">Rafał Antczak - kod bazy programu</string>
+    <string name="Muzyka">muzyka</string>
 
 </resources>
