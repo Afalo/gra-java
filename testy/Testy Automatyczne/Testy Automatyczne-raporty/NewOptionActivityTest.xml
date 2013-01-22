@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="NewOptionActivityTest" project="AndroidGameTest" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="18.524">
+    <testsuite name="com.javagame.test.NewOptionActivityTest" time="18.524">
+      <testcase name="testButtonAdd " classname="com.javagame.test.NewOptionActivityTest" time="2.73"/>
+      <testcase name="testButtonBack " classname="com.javagame.test.NewOptionActivityTest" time="2.152"/>
+      <testcase name="testButtonSave " classname="com.javagame.test.NewOptionActivityTest" time="1.827"/>
+      <testcase name="testCheckingTextFieldAng " classname="com.javagame.test.NewOptionActivityTest" time="1.452"/>
+      <testcase name="testCheckingTextFieldFr " classname="com.javagame.test.NewOptionActivityTest" time="1.453"/>
+      <testcase name="testCheckingTextFieldPl " classname="com.javagame.test.NewOptionActivityTest" time="1.403"/>
+      <testcase name="testClickButtonAdd " classname="com.javagame.test.NewOptionActivityTest" time="3.729"/>
+      <testcase name="testClickButtonBack " classname="com.javagame.test.NewOptionActivityTest" time="3.778"/>
+    </testsuite>
+  </testsuite>
+</testrun>

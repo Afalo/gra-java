@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="SummaryActivity_frTest" project="AndroidGameTest" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="7.391">
-    <testsuite name="com.javagame.test.SummaryActivity_frTest" time="7.391">
-      <testcase name="testButtonMenu " classname="com.javagame.test.SummaryActivity_frTest" time="3.013"/>
-      <testcase name="testClickButtonMenu " classname="com.javagame.test.SummaryActivity_frTest" time="4.378"/>
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="6.558">
+    <testsuite name="com.javagame.test.SummaryActivity_frTest" time="6.558">
+      <testcase name="testButtonMenu " classname="com.javagame.test.SummaryActivity_frTest" time="2.579"/>
+      <testcase name="testClickButtonMenu " classname="com.javagame.test.SummaryActivity_frTest" time="3.979"/>
     </testsuite>
   </testsuite>
 </testrun>

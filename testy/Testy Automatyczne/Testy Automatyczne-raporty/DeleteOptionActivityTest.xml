@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DeleteOptionActivityTest" project="AndroidGameTest" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="7.76">
+    <testsuite name="com.javagame.test.DeleteOptionActivityTest" time="7.76">
+      <testcase name="testButtonBack " classname="com.javagame.test.DeleteOptionActivityTest" time="2.305"/>
+      <testcase name="testButtonDelete " classname="com.javagame.test.DeleteOptionActivityTest" time="2.002"/>
+      <testcase name="testClickButtonBack " classname="com.javagame.test.DeleteOptionActivityTest" time="3.451"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -31,6 +31,19 @@ public class JavaGameTest extends ActivityInstrumentationTestCase2<JavaGame> {
 
 	  }
 	  
+	// Check if there's an Autor button.
+		  public void testButtonAutor() throws Exception {
+			solo.assertCurrentActivity("Expected activity", "JavaGame");
+			assertTrue(solo.searchText("AUTORZY"));
+		  }
+			    
+		  // Test pressing an Autor button.
+		  public void testClickButtonAutor() throws Exception {
+			solo.clickOnButton("AUTORZY");
+			solo.assertCurrentActivity("Expected activity", "AutorActivity");
+			solo.finishOpenedActivities();
+		  }
+	  
 	// Check if there's an Option button.
 	  public void testButtonOption() throws Exception {
 		solo.assertCurrentActivity("Expected activity", "JavaGame");
@@ -40,7 +53,7 @@ public class JavaGameTest extends ActivityInstrumentationTestCase2<JavaGame> {
 	  // Test pressing an Option button.
 	  public void testClickButtonOption() throws Exception {
 		solo.clickOnButton("OPCJE");
-		solo.assertCurrentActivity("Expected activity", "Option");
+		solo.assertCurrentActivity("Expected activity", "SettingsActivityMain");
 		solo.finishOpenedActivities();
 	  }
 		  

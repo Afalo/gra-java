@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="ChooseTest" project="AndroidGameTest" tests="8" started="8" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="28.04">
-    <testsuite name="com.javagame.test.ChooseTest" time="28.04">
-      <testcase name="testButtonAng " classname="com.javagame.test.ChooseTest" time="3.418"/>
-      <testcase name="testButtonCof " classname="com.javagame.test.ChooseTest" time="2.602"/>
-      <testcase name="testButtonFr " classname="com.javagame.test.ChooseTest" time="2.578"/>
-      <testcase name="testButtonPl " classname="com.javagame.test.ChooseTest" time="2.428"/>
-      <testcase name="testClickButtonAng " classname="com.javagame.test.ChooseTest" time="4.729"/>
-      <testcase name="testClickButtonCof " classname="com.javagame.test.ChooseTest" time="3.803"/>
-      <testcase name="testClickButtonFr " classname="com.javagame.test.ChooseTest" time="4.129"/>
-      <testcase name="testClickButtonPl " classname="com.javagame.test.ChooseTest" time="4.353"/>
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="23.866">
+    <testsuite name="com.javagame.test.ChooseTest" time="23.866">
+      <testcase name="testButtonAng " classname="com.javagame.test.ChooseTest" time="2.268"/>
+      <testcase name="testButtonCof " classname="com.javagame.test.ChooseTest" time="1.803"/>
+      <testcase name="testButtonFr " classname="com.javagame.test.ChooseTest" time="2.027"/>
+      <testcase name="testButtonPl " classname="com.javagame.test.ChooseTest" time="1.902"/>
+      <testcase name="testClickButtonAng " classname="com.javagame.test.ChooseTest" time="4.13"/>
+      <testcase name="testClickButtonCof " classname="com.javagame.test.ChooseTest" time="3.602"/>
+      <testcase name="testClickButtonFr " classname="com.javagame.test.ChooseTest" time="3.704"/>
+      <testcase name="testClickButtonPl " classname="com.javagame.test.ChooseTest" time="4.429"/>
     </testsuite>
   </testsuite>
 </testrun>

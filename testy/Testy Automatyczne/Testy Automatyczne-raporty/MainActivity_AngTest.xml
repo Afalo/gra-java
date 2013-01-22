@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="MainActivity_AngTest" project="AndroidGameTest" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="3.989">
-    <testsuite name="com.javagame.test.MainActivity_AngTest" time="3.989">
-      <testcase name="testClickButtonAng " classname="com.javagame.test.MainActivity_AngTest" time="3.989"/>
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="3.108">
+    <testsuite name="com.javagame.test.MainActivity_AngTest" time="3.108">
+      <testcase name="testClickButtonAng " classname="com.javagame.test.MainActivity_AngTest" time="3.108"/>
     </testsuite>
   </testsuite>
 </testrun>

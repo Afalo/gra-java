@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="MyQuestionActivity_FrTest" project="AndroidGameTest" tests="7" started="7" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="45.388">
-    <testsuite name="com.javagame.test.MyQuestionActivity_FrTest" time="45.388">
-      <testcase name="testButtonFr " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.704"/>
-      <testcase name="testClickButtonFr1 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="4.429"/>
-      <testcase name="testClickButtonFrD " classname="com.javagame.test.MyQuestionActivity_FrTest" time="26.143"/>
-      <testcase name="testClickRButtonFr0 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="3.078"/>
-      <testcase name="testClickRButtonFr1 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.952"/>
-      <testcase name="testClickRButtonFr2 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.879"/>
-      <testcase name="testClickRButtonFr3 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="3.202"/>
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="58.769">
+    <testsuite name="com.javagame.test.MyQuestionActivity_FrTest" time="58.769">
+      <testcase name="testButtonFr " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.413"/>
+      <testcase name="testClickButtonFr1 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="3.855"/>
+      <testcase name="testClickButtonFrD " classname="com.javagame.test.MyQuestionActivity_FrTest" time="41.616"/>
+      <testcase name="testClickRButtonFr0 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.578"/>
+      <testcase name="testClickRButtonFr1 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.752"/>
+      <testcase name="testClickRButtonFr2 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.628"/>
+      <testcase name="testClickRButtonFr3 " classname="com.javagame.test.MyQuestionActivity_FrTest" time="2.927"/>
     </testsuite>
   </testsuite>
 </testrun>

@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="JavaGameTest" project="AndroidGameTest" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="samsung-gt_i9100-00197021345bbe" time="16.078">
-    <testsuite name="com.javagame.test.JavaGameTest" time="16.078">
-      <testcase name="testButtonOption " classname="com.javagame.test.JavaGameTest" time="2.64"/>
-      <testcase name="testButtonStart " classname="com.javagame.test.JavaGameTest" time="2.377"/>
-      <testcase name="testButtonWyjscie " classname="com.javagame.test.JavaGameTest" time="2.678"/>
-      <testcase name="testClickButtonOption " classname="com.javagame.test.JavaGameTest" time="4.079"/>
-      <testcase name="testClickButtonStart " classname="com.javagame.test.JavaGameTest" time="4.304"/>
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JavaGameTest" project="AndroidGameTest" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="samsung-gt_i9100-00197021345bbe" time="19.155">
+    <testsuite name="com.javagame.test.JavaGameTest" time="19.155">
+      <testcase name="testButtonAutor " classname="com.javagame.test.JavaGameTest" time="2.513"/>
+      <testcase name="testButtonOption " classname="com.javagame.test.JavaGameTest" time="1.903"/>
+      <testcase name="testButtonStart " classname="com.javagame.test.JavaGameTest" time="2.102"/>
+      <testcase name="testButtonWyjscie " classname="com.javagame.test.JavaGameTest" time="1.928"/>
+      <testcase name="testClickButtonAutor " classname="com.javagame.test.JavaGameTest" time="3.503"/>
+      <testcase name="testClickButtonOption " classname="com.javagame.test.JavaGameTest" time="3.478"/>
+      <testcase name="testClickButtonStart " classname="com.javagame.test.JavaGameTest" time="3.728"/>
     </testsuite>
   </testsuite>
 </testrun>
